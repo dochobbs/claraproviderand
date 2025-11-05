@@ -80,11 +80,7 @@ dependencies {
     // JSON
     implementation("com.google.code.gson:gson:2.10.1")
 
-    // Supabase
-    implementation("io.github.jan-tennert.supabase:postgrest-kt:2.0.3")
-    implementation("io.github.jan-tennert.supabase:auth-kt:2.0.3")
-    implementation("io.github.jan-tennert.supabase:realtime-kt:2.0.3")
-    implementation("io.ktor:ktor-client-android:2.3.6")
+    // Supabase (using OkHttp + Gson directly, no Kotlin client needed)
 
     // Firebase (for push notifications)
     implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
