@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Colors used by Compose theme -->
-    <color name="material_blue">#1976D2</color>
-    <color name="material_orange">#FF6F00</color>
-    <color name="material_white">#FFFFFF</color>
-    <color name="material_gray">#FAFAFA</color>
+    <!-- Empty - all colors defined in styles.xml -->
 </resources>
