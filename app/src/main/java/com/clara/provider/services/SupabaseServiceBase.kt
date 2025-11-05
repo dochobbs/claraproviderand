@@ -13,10 +13,10 @@ import java.io.IOException
  */
 class SupabaseServiceBase(context: Context) {
 
-    // TODO: Load from environment or config file
-    private val supabaseUrl = "" // Configure in secrets/env
-    private val supabaseKey = "" // Configure in secrets/env
-    private val supabaseAnonKey = "" // Configure in secrets/env
+    // Supabase configuration
+    private val supabaseUrl = "https://dmfsaoawhomuxabhdubw.supabase.co"
+    private val supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRtZnNhb2F3aG9tdXhhYmhkdWJ3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MDM1MjcyOSwiZXhwIjoyMDc1OTI4NzI5fQ.rOuK231ZrvXZBKrwD248Y5I-P3UzyjKXexJ7on_M6UY"
+    private val supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRtZnNhb2F3aG9tdXhhYmhkdWJ3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjAzNTI3MjksImV4cCI6MjA3NTkyODcyOX0.X8zyqgFWNQ8Rk_UB096gaVTv709SAKI7iJc61UJn-L8"
 
     private val httpClient: OkHttpClient = OkHttpClient.Builder()
         .addInterceptor { chain ->
