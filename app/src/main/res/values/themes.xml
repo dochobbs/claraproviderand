@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ClaraProviderApp" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/material_blue</item>
+        <item name="android:colorAccent">@color/material_orange</item>
+    </style>
+
+    <color name="material_blue">#1976D2</color>
+    <color name="material_orange">#FF6F00</color>
+    <color name="material_white">#FFFFFF</color>
+    <color name="material_gray">#FAFAFA</color>
+</resources>

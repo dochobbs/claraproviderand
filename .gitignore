@@ -1,0 +1,71 @@
+# Android Gradle
+.gradle/
+.idea/
+*.iml
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.so
+*.aar
+*.zip
+*.tar.gz
+*.rar
+
+# Gradle files
+.gradle
+build/
+gradle/
+gradlew
+gradlew.bat
+
+# Local configuration file
+local.properties
+
+# Android Studio
+.idea/
+*.iws
+*.ipr
+*.iml
+.android/
+*.jks
+*.keystore
+
+# Build outputs
+out/
+*/release/
+*/debug/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Secrets and configuration
+google-services.json
+.env
+secrets.properties
+
+# Generated files
+GeneratedPluginRegistrant.java
+
+# Node modules (if needed)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Editor
+.vscode/
+.sublime-project
+.sublime-workspace
+
+# Java
+.classpath
+.project
+.settings/
+
+# Kotlin
+.kotlin_classes/

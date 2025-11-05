@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clara Provider</string>
+
+    <!-- Navigation -->
+    <string name="conversations">Conversations</string>
+    <string name="conversation_detail">Conversation Detail</string>
+    <string name="patient_profile">Patient Profile</string>
+
+    <!-- Actions -->
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- Status -->
+    <string name="pending">Pending</string>
+    <string name="responded">Responded</string>
+    <string name="flagged">Flagged</string>
+    <string name="escalated">Escalated</string>
+
+    <!-- Triage -->
+    <string name="er_911">ER - 911</string>
+    <string name="er_drive">ER - Drive</string>
+    <string name="urgent_visit">Urgent Visit</string>
+    <string name="routine_visit">Routine Visit</string>
+    <string name="home_care">Home Care</string>
+
+    <!-- Messages -->
+    <string name="loading">Loading...</string>
+    <string name="error_loading">Error loading data</string>
+    <string name="no_conversations">No conversations</string>
+    <string name="no_results">No results found</string>
+</resources>
