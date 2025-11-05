@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ClaraProviderApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/material_blue</item>
+        <item name="colorPrimaryVariant">@color/material_blue</item>
+        <item name="colorSecondary">@color/material_orange</item>
+        <item name="colorSecondaryVariant">@color/material_orange</item>
+        <item name="colorError">@color/material_red</item>
+        <item name="android:colorBackground">@color/material_white</item>
+    </style>
+
+    <color name="material_blue">#1976D2</color>
+    <color name="material_orange">#FF6F00</color>
+    <color name="material_red">#D32F2F</color>
+    <color name="material_white">#FFFFFF</color>
+    <color name="material_black">#000000</color>
+</resources>
