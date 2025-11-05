@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "629896744837",
+    "project_id": "clara-provider",
+    "storage_bucket": "clara-provider.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629896744837:android:50ee26ca694f76f4653eec",
+        "android_client_info": {
+          "package_name": "com.clara.provider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoN_i_hVL-m5iB2K5CXTax6Oye9UhItsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
